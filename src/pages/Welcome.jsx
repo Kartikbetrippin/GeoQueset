@@ -70,7 +70,7 @@ const Modal = styled.div`
 
   input {
     padding: 16px;
-    font-size: 1rem;
+    font-size: 24px;
     background-color: black;
     border: 2px solid white;
     color: white;

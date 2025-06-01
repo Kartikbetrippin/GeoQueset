@@ -11,8 +11,8 @@ import Editor from "../components/Editor";
 
 const StyledDiv = styled.div``;
 const intialState = {
-  lat: 0,
-  long: 0,
+  lat: 28.7041,
+  long: 77.1025,
   zoom: 15,
   markedLocations: [],
   active: false,

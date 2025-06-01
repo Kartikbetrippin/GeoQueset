@@ -15,7 +15,7 @@ const intialState = {
   long: 77.1025,
   zoom: 15,
   markedLocations: [],
-  active: active,
+  active: true,
   ref: null,
 };
 

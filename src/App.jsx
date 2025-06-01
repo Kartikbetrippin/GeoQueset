@@ -65,7 +65,7 @@ const App = () => {
     <AppContext.Provider value={[appState, dispatcher]}>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Navigate replace to="/welcome" />} />
+          <Route index element={<Navigate replace to="/home" />} />
           <Route
             path="/welcome"
             element={
@@ -82,6 +82,7 @@ const App = () => {
               </ProtectedRoute>
             }
           />
+          <Route path="*" element={<Navigate replace to="/home" />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer position="top-center" autoClose={3000} />
